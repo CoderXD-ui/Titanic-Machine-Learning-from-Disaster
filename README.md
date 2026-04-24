@@ -16,9 +16,19 @@ There will be three main steps in this experiment:
 @Imputation
 @Training and Prediction
 @For this project, we will utilize the Titanic dataset. The dataset consists of the following files:
-@train.csv: Contains information about the passengers and their survival status, which will be used for 
+@train.csv: Contains information about the passengers and their survival status, which will be used for
 @training our model. Serves as our primary data source for training and validation, providing both features and target labels.
 @test.csv: Includes details of passengers without survival labels, which we will use for making predictions.
 @Allows us to assess the model's performance on unseen data, simulating a real-world scenario where predictions must be 
 @made for new passengers.@gender_submission.csv: A sample submission file that demonstrates the format required for 
 @submitting predictions.
+
+<h2>Titanic Passanger Survival Analysis</h2>
+
+
+
+```python
+from IPython.display import Image
+Image(url= "https://static1.squarespace.com/static/5006453fe4b09ef2252ba068/5095eabce4b06cb305058603/5095eabce4b02d37bef4c24c/1352002236895/100_anniversary_titanic_sinking_by_esai8mellows-d4xbme8.jpg")
+```
+
